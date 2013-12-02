@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <channel>
+      <title>Sensorberg MacBeacon</title>
+      <link>http://andymatuschak.org/files/sparkletestcast.xml</link>
+      <description>Most recent changes with links to updates.</description>
+      <language>en</language>      
+         <item>
+            <title>Version 1.0</title>
+			<description>
+				This is the inital release using Sparkle.
+			</description>
+            <pubDate>Sun, 01 Dec 2013 19:00:00 +0000</pubDate>
+            <!--<sparkle:releaseNotesLink>http://andymatuschak.org/files/notes.html</sparkle:releaseNotesLink>-->
+            <enclosure url="https://github.com/deadfalkon/BeaconOSX/releases/download/0.1/BeaconOSX.zip"
+            sparkle:version="1.0"
+            length="28055"
+            type="application/octet-stream"/>
+         </item>
+   </channel>
+</rss>

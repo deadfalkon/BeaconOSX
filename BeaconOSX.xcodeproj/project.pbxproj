@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01C14C3C184D26E200DC4801 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C14C3B184D26E200DC4801 /* Sparkle.framework */; };
 		C9747CC81823FF980031E32F /* BLCBeaconAdvertisementData.m in Sources */ = {isa = PBXBuildFile; fileRef = C9747CC71823FF980031E32F /* BLCBeaconAdvertisementData.m */; };
 		C9747CC91823FF980031E32F /* BLCBeaconAdvertisementData.m in Sources */ = {isa = PBXBuildFile; fileRef = C9747CC71823FF980031E32F /* BLCBeaconAdvertisementData.m */; };
 		C9ACECFD1823C3B7000FFBFA /* IOBluetoothUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9ACECFC1823C3B7000FFBFA /* IOBluetoothUI.framework */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01C14C3B184D26E200DC4801 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sparkle.framework; path = dependencies/Sparkle.framework; sourceTree = "<group>"; };
 		C9747CC61823FF980031E32F /* BLCBeaconAdvertisementData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLCBeaconAdvertisementData.h; sourceTree = "<group>"; };
 		C9747CC71823FF980031E32F /* BLCBeaconAdvertisementData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLCBeaconAdvertisementData.m; sourceTree = "<group>"; };
 		C9ACECFC1823C3B7000FFBFA /* IOBluetoothUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOBluetoothUI.framework; path = System/Library/Frameworks/IOBluetoothUI.framework; sourceTree = SDKROOT; };
@@ -68,6 +70,7 @@
 				C9ACECFD1823C3B7000FFBFA /* IOBluetoothUI.framework in Frameworks */,
 				C9B7A3351823BFB600D61F59 /* IOBluetooth.framework in Frameworks */,
 				C9B7A3011823BEB900D61F59 /* Cocoa.framework in Frameworks */,
+				01C14C3C184D26E200DC4801 /* Sparkle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,6 +108,7 @@
 		C9B7A2FF1823BEB900D61F59 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				01C14C3B184D26E200DC4801 /* Sparkle.framework */,
 				C9ACECFC1823C3B7000FFBFA /* IOBluetoothUI.framework */,
 				C9B7A3341823BFB600D61F59 /* IOBluetooth.framework */,
 				C9B7A3001823BEB900D61F59 /* Cocoa.framework */,
@@ -401,6 +405,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/falkorichter/Dropbox/workspaces/mac_workspace/BeaconOSX/dependencies,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BeaconOSX/BeaconOSX-Prefix.pch";
 				INFOPLIST_FILE = "BeaconOSX/BeaconOSX-Info.plist";
@@ -414,6 +422,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/falkorichter/Dropbox/workspaces/mac_workspace/BeaconOSX/dependencies,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BeaconOSX/BeaconOSX-Prefix.pch";
 				INFOPLIST_FILE = "BeaconOSX/BeaconOSX-Info.plist";
